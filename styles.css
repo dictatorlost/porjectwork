@@ -1,0 +1,144 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    min-height: fit-content;
+}
+
+
+header {
+    background: #8f0d0d;
+    color: #fff;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    margin: 10px auto;
+    max-width: 800px;
+    max-height: 1000px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+/* Forms */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+form input, form textarea, form button {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background: #2f2b2b;
+    color: #fff;
+    cursor: pointer;
+    height: 50px;
+    width: 90px;;
+}
+
+form button:hover {
+    background: #c90b0b;
+}
+
+.clear-completed{
+    background: #e80d0d;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.add{
+    background: #05d686;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+/* Task Items */
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.task-item.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.task-item button {
+    background: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.task-item button:hover {
+    background: #218838;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #3e23c6;
+    color: #fff;
+    margin-top: 170px;
+    
+        position:fixed;
+        bottom:0;
+    width: 100%;
+}
